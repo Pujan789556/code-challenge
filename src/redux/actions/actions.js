@@ -14,7 +14,7 @@ const getSearchResponse = (response,props)=>{
 }
 
 export const searchMovies = (props) => {
-	const url = '&type=' + props.type.id + '&s=' + props.search + '&y=' + props.year;
+	const url = '&type=' + props.type.id + '&s=' + props.search;
 	return (dispatch) => {
 		axios.get(url)
 			.then(response =>{
@@ -31,7 +31,7 @@ const getAppededSearchResponse = (response,props,nextPage)=>{
 }
 
 export const nextPageSearchMovies = (props,nextPage) => {
-	const url = '&type=' + props.type.id + '&s=' + props.search + '&y=' + props.year + '&page=' + nextPage;
+	const url = '&type=' + props.type.id + '&s=' + props.search + '&page=' + nextPage;
 	return (dispatch) => {
 		axios.get(url)
 			.then(response =>{
