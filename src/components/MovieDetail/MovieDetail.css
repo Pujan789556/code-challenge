@@ -1,0 +1,38 @@
+.label{
+	font-weight: bold;
+}
+
+.value{
+	color: #2a4785;
+}
+
+.ratings_wrapper{
+    position: relative;
+    margin-left: 5px;
+    z-index: 2;
+}
+
+.ratings_wrapper .imdbRating {
+    background: url(https://m.media-amazon.com/images/G/01/imdb/images/title/title_overview_sprite-1705639977._V_.png) no-repeat;
+    background-position: -15px -118px;
+    float: left;
+    font-size: 11px;
+    height: 40px;
+    line-height: 13px;
+    padding: 2px 2px 2px 34px;
+    width: 70px;
+}
+
+.ratings_wrapper .imdbRating .ratingValue {
+    margin-bottom: 2px;
+    white-space: nowrap;
+}
+
+.ratings_wrapper .imdbRating .grey {
+    color: #6b6b6b;
+    font-size: 10px;
+}
+
+.ratings_wrapper .imdbRating .small {
+    font-size: 10px;
+}

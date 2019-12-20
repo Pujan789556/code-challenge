@@ -1,0 +1,18 @@
+.error-text{
+	color: #343a40;
+	font-size: 40px;
+	text-shadow: 3px 2px grey;
+}
+
+p.capitalize {
+  text-transform: capitalize;
+}
+
+.card-img-thumb{
+	height: 98px;
+	width: 67px;
+}
+
+.infinitescroll{
+	width: 90%;
+}
