@@ -7,6 +7,9 @@ In the project directory, you can run:
 Create .env file and add following:
 REACT_APP_API_URL="http://www.omdbapi.com/?apikey={yourapikey}&"
 
+### Install required packages
+### `yarn install`
+
 ### `yarn start`
 
 ### TODO
